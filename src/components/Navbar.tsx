@@ -1,10 +1,11 @@
 import { NavLink } from 'react-router-dom'
-import VariaLogo from './VariaLogo'
+import VariaLogo from './varia.svg'
+import styles from './Navbar.module.css'
 
 function Navbar() {
   return (
     <header className="App-header">
-      <VariaLogo scale={1.5}/>
+      <img src={VariaLogo} className={styles.logo}/>
       <nav>
         <ul>
           <li>
