@@ -5,7 +5,7 @@ import styles from './Navbar.module.css'
 function Navbar() {
   return (
     <header className="App-header">
-      <img src={VariaLogo} className={styles.logo}/>
+      <img src={VariaLogo} className="h-[200px] w-auto"/>
       <nav>
         <ul>
           <li>
